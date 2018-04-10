@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B82085D1207D3A2E0066A621 /* RoundedButtonV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82085D0207D3A2E0066A621 /* RoundedButtonV2.swift */; };
+		B82085D3207D3FE80066A621 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82085D2207D3FE80066A621 /* RegisterViewController.swift */; };
+		B85C3BED207D33F700FAF1CE /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85C3BEC207D33F700FAF1CE /* TextField.swift */; };
+		B85C3BEF207D345B00FAF1CE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85C3BEE207D345B00FAF1CE /* LoginViewController.swift */; };
 		B87211EE207A681B00BC2435 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87211ED207A681B00BC2435 /* AppDelegate.swift */; };
 		B87211F3207A681B00BC2435 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B87211F1207A681B00BC2435 /* Main.storyboard */; };
 		B87211F5207A681C00BC2435 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B87211F4207A681C00BC2435 /* Assets.xcassets */; };
@@ -14,12 +18,17 @@
 		B8721200207A688700BC2435 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87211FF207A688700BC2435 /* SplashViewController.swift */; };
 		B8721202207A6B4000BC2435 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8721201207A6B4000BC2435 /* RoundedButton.swift */; };
 		B8721204207A6F7500BC2435 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8721203207A6F7500BC2435 /* Button.swift */; };
+		B8774865207D41320088CAF4 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8774864207D41320088CAF4 /* ForgotPasswordViewController.swift */; };
 		B88CD977207A87C100C8E82B /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88CD976207A87C100C8E82B /* OnboardingViewController.swift */; };
 		B88CD979207A8A6200C8E82B /* sView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B88CD978207A8A6200C8E82B /* sView.xib */; };
 		B88CD97D207A8B1000C8E82B /* sUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88CD97C207A8B1000C8E82B /* sUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B82085D0207D3A2E0066A621 /* RoundedButtonV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButtonV2.swift; sourceTree = "<group>"; };
+		B82085D2207D3FE80066A621 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		B85C3BEC207D33F700FAF1CE /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		B85C3BEE207D345B00FAF1CE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B87211EA207A681B00BC2435 /* Simply.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Simply.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B87211ED207A681B00BC2435 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B87211F2207A681B00BC2435 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -29,6 +38,7 @@
 		B87211FF207A688700BC2435 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		B8721201207A6B4000BC2435 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		B8721203207A6F7500BC2435 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		B8774864207D41320088CAF4 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		B88CD976207A87C100C8E82B /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		B88CD978207A8A6200C8E82B /* sView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = sView.xib; sourceTree = "<group>"; };
 		B88CD97C207A8B1000C8E82B /* sUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sUIView.swift; sourceTree = "<group>"; };
@@ -64,6 +74,11 @@
 		B87211EC207A681B00BC2435 /* Simply */ = {
 			isa = PBXGroup;
 			children = (
+				B8774864207D41320088CAF4 /* ForgotPasswordViewController.swift */,
+				B82085D2207D3FE80066A621 /* RegisterViewController.swift */,
+				B82085D0207D3A2E0066A621 /* RoundedButtonV2.swift */,
+				B85C3BEE207D345B00FAF1CE /* LoginViewController.swift */,
+				B85C3BEC207D33F700FAF1CE /* TextField.swift */,
 				B88CD97C207A8B1000C8E82B /* sUIView.swift */,
 				B88CD978207A8A6200C8E82B /* sView.xib */,
 				B88CD976207A87C100C8E82B /* OnboardingViewController.swift */,
@@ -152,8 +167,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B87211EE207A681B00BC2435 /* AppDelegate.swift in Sources */,
+				B82085D3207D3FE80066A621 /* RegisterViewController.swift in Sources */,
+				B8774865207D41320088CAF4 /* ForgotPasswordViewController.swift in Sources */,
 				B8721202207A6B4000BC2435 /* RoundedButton.swift in Sources */,
 				B88CD97D207A8B1000C8E82B /* sUIView.swift in Sources */,
+				B82085D1207D3A2E0066A621 /* RoundedButtonV2.swift in Sources */,
+				B85C3BED207D33F700FAF1CE /* TextField.swift in Sources */,
+				B85C3BEF207D345B00FAF1CE /* LoginViewController.swift in Sources */,
 				B88CD977207A87C100C8E82B /* OnboardingViewController.swift in Sources */,
 				B8721200207A688700BC2435 /* SplashViewController.swift in Sources */,
 				B8721204207A6F7500BC2435 /* Button.swift in Sources */,
